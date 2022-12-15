@@ -1,8 +1,8 @@
 export const SliderData = [
-    {
+   /*  {
       image:
-        'https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/1.jpg',
-    },
+        'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/Knysna1.jpg',
+    }, */
     {
       image:
         'https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2419&q=80',

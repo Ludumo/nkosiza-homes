@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from './Hero'
+
 
 function About() {
   return (
-    <div>About</div>
+   <>
+    <Hero />
+   <h1>About</h1>
+   </> 
   )
 }
 

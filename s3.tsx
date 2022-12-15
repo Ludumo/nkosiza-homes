@@ -1,18 +1,24 @@
 import dotenv from 'dotenv'
 import aws from 'aws-sdk'
 
+const AWS = require('aws-sdk');
 
 
-dotenv.config()
-
-const region = "eu-central-1"
-const bucketName = "ludumobucket"
-const accessKeyId = process.env.AWS_ACCESS_KEY_ID
-const secretAccessKey =  process.env.AWS_SECRET_ACCESS_KEY
-
-const s3 = new aws.S3({
-  region,
-  accessKeyId,
-  secretAccessKey,
-  signatureVersion: 'v4'
+AWS.config.updtade({
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    region: "eu-central-1",
 })
+
+
+const s3 = new AWS.S3();
+
+
+const params = {
+    Bucket: 'ludumobucket',
+    CreateBucketConfiguration: {
+    LocationConstraint: 'eu-central-1',
+    },
+  };
+    
+ 

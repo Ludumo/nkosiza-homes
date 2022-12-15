@@ -8,7 +8,8 @@ module.exports = {
   images: {
     domains: [
       'images.unsplash.com',
-      'https://sts.eu-central-1.amazonaws.com',
+      'https://ludumobucket.s3.eu-central-1.amazonaws.com'
     ]
   }
 }
+
