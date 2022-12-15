@@ -8,7 +8,7 @@ module.exports = {
   images: {
     domains: [
       'images.unsplash.com',
-      'http://acs.amazonaws.com/groups/global/AllUsers',
+      'https://sts.eu-central-1.amazonaws.com',
     ]
   }
 }
