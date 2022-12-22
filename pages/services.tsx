@@ -1,13 +1,13 @@
 import React from 'react'
-import Services from '../components/Services';
+import ServicesCard from '../components/ServicesCard';
 
 
 function services() {
   return (
     <div>
-       <Services />
+       <ServicesCard />
     </div>
   )
 }
 
-export default services
+export default ServicesCard
