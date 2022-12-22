@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 const contact = () => {
   return (
     <div>
-        <Hero heading='Contact' />
+        <Hero heading='CONTACT' />
         <Contact />
     </div>
   )

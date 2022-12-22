@@ -6,10 +6,10 @@ import { useState } from 'react';
 function About() {
   return (
     <>
-    <Hero className='text-wrap' heading='About'/>
-    <p>
+    <Hero className='text-wrap' heading='ABOUT'/>
+    <p className='flex-wrap text-center justify-center align-middle px-64 pl-64 pb-12 text-lg text-slate-700'>
       As a team, 
-    we understand and share the frustration that many people feel about
+      we understand and share the frustration that many people feel about
      the slow progress and subpar quality of housing in our country.
       It can be disheartening to see homes that are poorly constructed 
       or held back by politics. That is why we are dedicated to finding 

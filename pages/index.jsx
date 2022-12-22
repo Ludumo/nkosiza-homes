@@ -1,11 +1,12 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from "next/image";
 import Hero from '../components/Hero';
 import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
 import About from './about';
 import Services from './services';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <About />
       <Services />
       <Slider slides={SliderData} />
+      <Contact />
+      <Footer />
     </div>
   );
 }
