@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';
 import About from './about';
-import Services from '../pages/services';
+import Services from './services';
 import Contact from '../components/Contact';
 
 export default function Home() {

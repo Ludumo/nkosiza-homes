@@ -32,6 +32,13 @@ const servicesCard = () => {
 
       <a href="#" className="group">
         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+          <Image 
+          src="https://ludumobucket.s3.eu-central-1.amazonaws.com/Floor+Plans/blueprint.jpg" 
+          width={100}
+          height={100}
+          className="h-full w-full object-cover object-center group-hover:opacity-75" 
+        />
+        </div>
         <h1 className="mt-4 text-sm text-gray-700">Preconstuction Planning</h1>
         <p className="mt-1 text-lg font-medium text-gray-900">
         As part of our comprehensive service,we take the time to thoroughly assess
@@ -41,16 +48,16 @@ const servicesCard = () => {
         Our team of experts is dedicated to providing elite services and ensuring that your new structure is erected in
           the most effective and efficient manner possible.
           </p>
-          <Image 
-          src="https://ludumobucket.s3.eu-central-1.amazonaws.com/Floor+Plans/blueprint.jpg" 
-          width={100}
-          height={100}
-          className="h-full w-full object-cover object-center group-hover:opacity-75" />
-        </div>
       </a>
 
       <a href="#" className="group">
         <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+          <Image 
+            src="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
+            width={100}
+            height={100}
+            className="h-full w-full object-cover object-center group-hover:opacity-75" 
+            />
           <h1 className="mt-4 text-sm text-gray-700">Architectural Modelling</h1>
           <p className="mt-1 text-lg font-medium text-gray-900">
             Our team is skilled in architectural modeling and we use the latest technology
@@ -62,11 +69,6 @@ const servicesCard = () => {
                allows us to carefully plan and execute the construction process, ensuring that everything 
                is built to your specifications and meets your expectations.
             </p>
-          <Image 
-          src="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
-          width={100}
-          height={100}
-          className="h-full w-full object-cover object-center group-hover:opacity-75" />
         </div>
       </a>
 
