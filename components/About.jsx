@@ -1,27 +1,28 @@
 import React from 'react'
-import Hero from './Hero'
+import { SlArrowDown } from 'react-icons/sl';
 import { useState } from 'react';
 
+const About = ({heading, message}) => {
 
-function About() {
   return (
-    <>
-    <Hero className='text-wrap' heading='ABOUT'/>
-    <p className='flex-wrap text-center justify-center align-middle px-64 pl-64 pb-12 text-lg text-slate-700'>
-      As a team, 
-      we understand and share the frustration that many people feel about
-     the slow progress and subpar quality of housing in our country.
-      It can be disheartening to see homes that are poorly constructed 
-      or held back by politics. That is why we are dedicated to finding 
-      a solution and providing high-quality homes that can be constructed 
-      and erected in just one day, without any unnecessary bureaucracy or red
-       tape. We want to make the process of getting a new home as simple and 
-       straightforward as possible. In addition to our quick and efficient home
-        construction services, we also offer financial services to support our 
-        customers in the long term.
-    </p>
-    </>
-  )
-}
+    <div className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
+      {/* Overlay */}
+      <div className='min-w-[0] m-auto p-4 h-min-[0]'>
 
-export default About
+      <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/20 z-[2]' />
+      <div className=' min-w-[0] min-h-[0] z-[2] mt-[-15]'>
+        <h2 className='text-5xl text-white font-light '>About</h2>
+        <p className='flex-row  w-64 h-64 pb-m64 py-5 text-xl  text-s text-wrap  text-white'>
+        We understand the challenges and frustrations people face when it comes to housing. 
+        We offer high-quality homes that can be constructed and erected quickly, without unnecessary bureaucracy. 
+        We aim to make the process of finding and securing a new home as stress-free as possible, 
+        and offer financial services to support our customers in the long term.
+        </p>
+        </div>
+      </div>
+    </div>
+ 
+  );
+};
+
+export default About;
