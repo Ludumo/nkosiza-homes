@@ -11,7 +11,7 @@ const Slider = ({ slides }) => {
   useEffect(() => {
     const id = setInterval(() => {
       setCurrent(current === length - 1 ? 0 : current + 1);
-    }, 4000);
+    }, 5000);
     setIntervalId(id);
     return () => clearInterval(id);
   }, [current]);
