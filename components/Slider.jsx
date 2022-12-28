@@ -1,27 +1,16 @@
-import Image from "next/image";
-import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import React, { useState } from 'react';
 import { SliderData } from './SliderData';
-import { TfiArrowCircleLeft, TfiArrowCircleRight } from 'react-icons/tfi';
+import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
-  const [intervalId, setIntervalId] = useState(null);
-  const length = slides && slides.length;
-
-  useEffect(() => {
-    const id = setInterval(() => {
-      setCurrent(current === length - 1 ? 0 : current + 1);
-    }, 5000);
-    setIntervalId(id);
-    return () => clearInterval(id);
-  }, [current]);
+  const length = slides.length;
 
   const nextSlide = () => {
-    clearInterval(intervalId);
     setCurrent(current === length - 1 ? 0 : current + 1);
   };
   const prevSlide = () => {
-    clearInterval(intervalId);
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
@@ -44,9 +33,9 @@ const Slider = ({ slides }) => {
                 : 'opacity-0'
             }
           >
-              <TfiArrowCircleLeft
+              <FaArrowCircleLeft
                 onClick={prevSlide}
-                className='absolute top-[50%] left-[30px] text-white/10 cursor-pointer select-none z-[2]'
+                className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]'
                 size={50}
               />
               {index === current && (
@@ -55,15 +44,12 @@ const Slider = ({ slides }) => {
                   alt='/'
                   width='1440'
                   height='600'
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto",
-                    objectFit: "cover"
-                  }} />
+                  objectFit='cover'
+                />
               )}
-              <TfiArrowCircleRight
+              <FaArrowCircleRight
                 onClick={nextSlide}
-                className='absolute top-[50%] right-[30px] text-white/10 cursor-pointer select-none z-[2]'
+                className='absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[2]'
                 size={50}
               />
             </div>
@@ -74,4 +60,4 @@ const Slider = ({ slides }) => {
   );
 };
 
-export default Slider
+export default Slider;

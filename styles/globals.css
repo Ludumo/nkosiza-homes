@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@media (min-width: 768px) {
+  .bg-cover {
+    background-size: cover;
+  }
+}
+
 html {
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
