@@ -18,7 +18,7 @@ const Services = () => (
 
 
   <div className="container mx-auto px-4 py-8">
-    <p className='flex-row  w-64 h-30 pb-m64 py-5 text-3xl   text-wrap  text-black'>
+    <p className='flex-row  w-64 h-30 pt-16 pb-10 py-5 text-2xl text-wrap  text-black'>
           Services
         </p>
     <div className="flex flex-wrap -mx-4 ">
