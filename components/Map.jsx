@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
-import mapboxgl from '!mapbox-gl';
+import mapboxgl from 'mapbox-gl';
 
 
 const Map = () => {
   const mapContainer = useRef(null);
 
   useEffect(() => {
-    mapboxgl.accessToken ='ppk.eyJ1IjoibHVkdW1vIiwiYSI6ImNsYzZhNHdwbTBtdDgzdnQ3YzByZDExamkifQ.mtMsqUQaaTItKM1PKHDllQ'
+    mapboxgl.accessToken ='pk.eyJ1IjoibHVkdW1vIiwiYSI6ImNsYzZlYmtmZTJoamEzcXA4OXJibTJyZXcifQ.ZttGWXvKmOf-NnFwU_II3A'
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v11',

@@ -1,5 +1,4 @@
 import React from 'react'
-import { SlArrowDown } from 'react-icons/sl';
 import { useState } from 'react';
 
 const About = ({heading, message}) => {

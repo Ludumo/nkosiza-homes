@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from "next/image";
 import Hero from '../components/Hero';
 import Slider from '../components/Slider';
 import { SliderData } from '../components/SliderData';

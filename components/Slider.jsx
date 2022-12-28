@@ -6,7 +6,7 @@ import { TfiArrowCircleLeft, TfiArrowCircleRight } from 'react-icons/tfi';
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const [intervalId, setIntervalId] = useState(null);
-  const length = slides.length;
+  const length = slides && slides.length;
 
   useEffect(() => {
     const id = setInterval(() => {

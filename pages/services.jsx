@@ -39,7 +39,9 @@ const Services = () => (
         />
     </div>
   </div>
-  <div className="flex items-center justify-center h-40 mb-12 bg-fixed bg-center bg-cover custom-img"></div>
+  <div className="flex items-center justify-center h-40 mb-12 bg-fixed bg-center bg-cover custom-img">
+    
+  </div>
 </>
 )
 
