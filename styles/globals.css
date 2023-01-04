@@ -9,6 +9,20 @@
   }
 }
 
+@media (prefers-reduced-motion) {
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }  
+}
+
 html {
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
@@ -18,5 +32,8 @@ html {
 .custom-img {
   background-image: url('https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/1.jpg')
 }
+
+
+
 
 
