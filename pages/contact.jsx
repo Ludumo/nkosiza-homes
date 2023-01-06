@@ -5,11 +5,13 @@ import Hero from '../components/Hero'
 const contact = () => {
   return (
     <div>
-        <Hero  heading='Contact' 
-               bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg" 
-               button="Get in touch" 
-               showButton={true}
-               />
+        <Hero  
+              heading='Contact' 
+              bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg" 
+              button="Get in touch" 
+              showButton={true}
+              link='/contact'
+        />
         <Contact />
     </div>
   )

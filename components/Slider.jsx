@@ -40,11 +40,11 @@ const Slider = ({ slides }) => {
               />
               {index === current && (
                 <Image
+                  className='object-cover'
                   src={slide.image}
                   alt='/'
                   width='1440'
                   height='600'
-                  objectFit='cover'
                 />
               )}
               <FaArrowCircleRight

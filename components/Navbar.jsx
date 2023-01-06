@@ -41,12 +41,14 @@ const Navbar = () => {
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white/20'>
         <Link href='#' className='flex items-center'>
-  
-        <Image className='flex container' src={logo} alt='Logo'
+        <Image 
+              className='flex container' 
+              src={logo} 
+              alt='Logo'
+              priority='high'
               width={115}
               height={80} 
         />
-
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'>
@@ -65,7 +67,7 @@ const Navbar = () => {
             <Link href='/contact'>Contact</Link>
           </li>
         </ul>
-
+        
         {/* Mobile Button */}
         <div onClick={handleNav} className='block sm:hidden z-10'>
           {nav ? (
