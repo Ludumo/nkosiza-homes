@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 
 const Services = () => (
   <>
-  <Hero bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" heading="Services" message="What we offer"></Hero>
+  <Hero bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" heading="Services" message="Our company offers construction services including management, architectural modelling, and preconstruction planning. We promise high-quality and timely construction, with excellent customer service. Our team works with experts to determine the best course of action for unique projects and is dedicated to providing elite services."></Hero>
 
     <div className='flex items-center justify-center mb-1 '>
       {/* Overlay */}
@@ -34,7 +34,9 @@ const Services = () => (
       <Card
         image="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg"
         header="Construction Management"
-        text="Our skilled construction team can efficiently and effectively erect your complete structure in just one day. We promise high-quality, timely construction and excellent service to ensure customer satisfaction."
+        text="Our skilled construction team can efficiently and effectively 
+        erect your complete structure in just one day. We promise high-quality, 
+        timely construction and excellent service to ensure customer satisfaction."
         />
     </div>
   </div>
