@@ -6,7 +6,7 @@ import Hero from '../components/Hero'
 const Services = () => (
   <>
   <Hero 
-  bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
+  bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/5.jpg" 
   heading="Services" 
   message="Our company offers construction services including management, 
   architectural modelling, and preconstruction planning. 
