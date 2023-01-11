@@ -20,11 +20,7 @@ import HomeText from '../components/HomeText';
       <Hero 
         bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
         heading='THE FUTURE OF LIVING' 
-        button='Explore' 
-        showButton={false} 
-        link='/about' 
         />
-
       <HomeText />
       <About />
       <Services />

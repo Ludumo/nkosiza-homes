@@ -19,7 +19,7 @@ function about() {
                    >
 
       </Hero> */}
-      <div className='container'>
+      <div>
       <Vision/>
       <Mission/>
       <Philosophy/>
