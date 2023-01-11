@@ -40,7 +40,7 @@ const Navbar = () => {
       className='fixed left-0 top-0 w-full z-10 ease-in duration-300'
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white/20'>
-        <Link href='#' className='flex items-center'>
+        <Link href='/' className='flex items-center'>
         <Image 
               className='flex container' 
               src={logo} 
@@ -54,9 +54,20 @@ const Navbar = () => {
           <li className='p-4'>
             <Link href='/'>Home</Link>
           </li>
-          <li className='p-4'>
+          <li className='relative p-4'>
             <Link href='/about'>About</Link>
-          </li>
+              <ul className='absolute hidden'>
+                  <li>
+                      <a href='/vision' className='block py-2 px-4'>Our vission</a>
+                  </li>
+                  <li>
+                      <a href='/mission' className='block py-2 px-4'>Our mission</a>
+                  </li>
+                  <li>
+                      <a href='/philosophy' className='block py-2 px-4'>Our philosophy</a>
+                  </li>
+              </ul>
+            </li>
           <li className='p-4'>
             <Link href='/services'>Services</Link>
           </li>
@@ -88,8 +99,19 @@ const Navbar = () => {
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/'>Home</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            <li onClick={handleNav} className='relative p-4 text-4xl hover:text-gray-500'>
               <Link href='/about'>About</Link>
+              <ul className='absolute hidden'>
+                  <li>
+                      <a href='/vision' className='block  py-2 px-4'>Our vision</a>
+                  </li>
+                  <li>
+                      <a href='/mission' className='block  py-2 px-4'>Our mission</a>
+                  </li>
+                  <li>
+                      <a href='/philosophy' className='block  py-2 px-4'>Our philosophy</a>
+                  </li>
+              </ul>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/services'>Services</Link>
