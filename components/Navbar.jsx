@@ -56,14 +56,6 @@ const Navbar = () => {
           </li>
           <li className='relative p-4'>
             <Link href='/about'>About</Link>
-              {/* <ul className='absolute hidden'>
-                  <li>
-                      <a href='/vision' className='block py-2 px-4'>Our vission</a>
-                  </li>
-                  <li>
-                      <a href='/mission' className='block py-2 px-4'>Our mission</a>
-                  </li>
-              </ul> */}
             </li>
           <li className='p-4'>
             <Link href='/services'>Services</Link>
@@ -98,14 +90,6 @@ const Navbar = () => {
             </li>
             <li onClick={handleNav} className='relative p-4 text-4xl hover:text-gray-500'>
               <Link href='/about'>About</Link>
-            {/*   <ul className='absolute hidden'>
-                  <li>
-                      <a href='/vision' className='block  py-2 px-4'>Our vision</a>
-                  </li>
-                  <li>
-                      <a href='/mission' className='block  py-2 px-4'>Our mission</a>
-                  </li>
-              </ul> */}
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/services'>Services</Link>

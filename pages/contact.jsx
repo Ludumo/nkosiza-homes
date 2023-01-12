@@ -9,9 +9,8 @@ const contact = () => {
         <Hero  
               heading='Contact' 
               bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg" 
-              button="Get in touch" 
-              showButton={true}
-              link='/contact'
+             
+             
         />
         <Contact />
         <Footer />
