@@ -7,12 +7,8 @@ const Services = () => (
   <>
   <Hero 
   bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/5.jpg" 
-  heading="Services" 
-  message="Our company offers construction services including management, 
-  architectural modelling, and preconstruction planning. 
-  We promise high-quality and timely construction, with excellent customer service.
-   Our team works with experts to determine the best course of action for unique projects
-    and is dedicated to providing elite services.">
+  heading="SERVICES" 
+  message="We provide comprehensive construction services including management, architectural design, pre-construction planning, high-quality work, timely completion and excellent customer service, using a team of experts to tackle unique projects.">
 
   </Hero>
 

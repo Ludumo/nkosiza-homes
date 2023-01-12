@@ -30,9 +30,24 @@ html {
 }
 
 .custom-img {
-  background-image: url('https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/1.jpg')
+  background-image: url('https://ludumobucket.s3.eu-central-1.amazonaws.com/MTO+IkhoVillage/Front+of+village_+1920x1080.jpg')
 }
 
+li:hover .hidden {
+  display:block;
+}
+
+div.about {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 10px;
+-moz-column-gap: 10px;
+column-gap: 10px;
+-webkit-column-rule: 1px solid rgba(28,110,164,0.5);
+-moz-column-rule: 1px solid rgba(28,110,164,0.5);
+column-rule: 1px solid rgba(28,110,164,0.5);
+}
 
 
 
