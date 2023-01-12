@@ -19,7 +19,8 @@ import HomeText from '../components/HomeText';
       </Head>
       <Hero 
         bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
-        heading='THE FUTURE OF LIVING' 
+        heading='NKOSIZA HOMES' 
+        
         />
       <HomeText />
       <About />

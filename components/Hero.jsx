@@ -11,7 +11,7 @@ const Hero = ({ bgImage, heading, message, button, showButton, link }) => {
       {/* Overlay */}
       <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/5 z-[2]' />
       <div className='p-5 text-white z-[2] mt-[-10rem]'>
-        <h2 className='text-7xl pb-10 pt-64 font-light text-center'>{heading}</h2>
+        <h2 className='text-4xl pb-10 pt-64 font-light text-center'>{heading}</h2>
         {showButton && (
           <div className='flex flex-row justify-center items-center'>
            
@@ -20,7 +20,7 @@ const Hero = ({ bgImage, heading, message, button, showButton, link }) => {
             </Link>
           </div>
         )}
-        <p className='flex  w-full text-s  text-white py-5 text-center'>{message}</p>
+        <p className='flex w-90 text-s mx-auto text-white py-5 text-center'>{message}</p>
         
       </div>
     </div>

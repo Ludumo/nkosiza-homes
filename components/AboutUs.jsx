@@ -12,6 +12,13 @@ export default function AboutUs() {
       >
       </Hero>
       <div>
+      <p className='text-xl pb-10 pt-12 mx-auto  font-light text-center'>
+        We specialize in using Cross Laminated Timber (CLT), an environmentally friendly building method.
+        CLT is a prefabricated, solid, engineered wood panel that is lightweight,
+        strong, and has exceptional fire and thermal performance.
+        It is easy to install, generates minimal waste and has a low environmental impact.
+        Our CLT is FSC approved, ensuring that it comes from sustainable resources and is sourced locally.
+        </p>
       </div>
         
       
