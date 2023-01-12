@@ -9,7 +9,7 @@ function HomeText() {
         <div>
         <Hero
             heading='SUSTAINABILITY' 
-            message=""
+            message="Sustainability is at the heart of our product"
             bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg"
         />
         </div>
