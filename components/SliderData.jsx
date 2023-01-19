@@ -1,4 +1,28 @@
 export const SliderData = [
+  {
+    image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/Knysna1.jpg',
+  },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/a.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/b.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/c.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/d.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/e.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/f.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/g.jpg',
+    },
      {
       image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/1.jpg',
     }, 
@@ -14,5 +38,11 @@ export const SliderData = [
     },
     {
       image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/5.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/6.jpg',
+    },
+    {
+      image:'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/7.jpg',
     },
   ];
