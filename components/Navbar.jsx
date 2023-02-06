@@ -18,8 +18,8 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor('#f5f9f2');
-        setTextColor('#083b27');
+        setColor('#f5f5f5');
+        setTextColor('#064e3b');
         setLogo(
           'https://ludumobucket.s3.eu-central-1.amazonaws.com/Nkosiza+/Logo/Nkosiza+green.png'
         );
@@ -54,7 +54,7 @@ const Navbar = () => {
           <li className='p-4'>
             <Link href='/'>Home</Link>
           </li>
-          <li className='relative p-4'>
+          <li className='p-4'>
             <Link href='/about'>About</Link>
             </li>
           <li className='p-4'>

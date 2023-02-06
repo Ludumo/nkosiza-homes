@@ -3,6 +3,7 @@ import Card from '../components/Card'
 import Hero from '../components/Hero'
 
 
+
 const Services = () => (
   <>
   <Hero 
@@ -39,6 +40,7 @@ const Services = () => (
         timely construction and excellent service to ensure customer satisfaction."
         />
     </div>
+  
   </div>
 </>
 )

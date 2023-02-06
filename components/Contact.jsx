@@ -5,30 +5,36 @@ const Contact = () => {
   return (
     <div className='max-w-[1240px] m-auto p-4 h-screen'>
       <Map />
-      <br/>
-      <div className='flex justify-between mt-4'>
-        <div className='w-1/2 p-4'>
-          <h2 className='text-2xl font-bold mb-2'>Inquiries</h2>
-          <p className='text-gray-800'>
-            For any inquiries, questions or commendations, please email info@nkosiza.africa or fill out the following form.
-          </p>
-        </div>
-        <div className='w-1/2 p-4'>
-          <h2 className='text-2xl font-bold mb-2'>Office</h2>
-          <p className='text-gray-800'>
-            15 Bridgewater street, Paarden Eiland, Cape Town. South Africa
-          </p>
-        </div>
-      </div>
-        <form className='max-w-[600px] m-auto'>
-            <div className='grid grid-cols-2 gap-2'>
-                <input className='border shadow-lg p-3' type="text" placeholder='Name' />
-                <input className='border shadow-lg p-3' type="email" placeholder='Email' />
-            </div>
-            <input className='border shadow-lg p-3 w-full my-2' type="text" placeholder='Subject' />
-            <textarea className='border shadow-lg p-3 w-full' cols="30" rows="10" placeholder='Message'></textarea>
-            <button className='border shadow-lg p-3 w-full mt-2'>Submit</button>
-        </form>
+      <form className="flex w-full m-auto p-6 ">
+                <div className="w-full max-w-2xl px-5 py-10 m-auto mt-10  rounded-lg shadow:bg-gray-800">
+                    <div className="mb-6 text-3xl font-light text-center text-gray-800:text-white">
+                        Leave us a message
+                    </div>
+                    <div className="grid max-w-xl grid-cols-2 gap-4 m-auto">
+                        <div className="col-span-2 lg:col-span-1">
+                            <div className=" relative ">
+                                <input type="text" id="contact-form-name" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Name"/>
+                                </div>
+                            </div>
+                            <div className="col-span-2 lg:col-span-1">
+                                <div className=" relative ">
+                                    <input type="text" id="contact-form-email" className=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="email"/>
+                                    </div>
+                                </div>
+                                <div className="col-span-2">
+                                    <label className="text-gray-700" >
+                                        <textarea className="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" id="comment" placeholder="Enter your comment" name="comment">
+                                        </textarea>
+                                    </label>
+                                </div>
+                                <div className="col-span-2 text-right pb-24">
+                                    <button type="submit" className="py-2 px-4  bg-emerald-900 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                                        Send
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
     </div>
   )
 }

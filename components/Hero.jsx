@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
+
 const Hero = ({ bgImage, heading, message, button, showButton, link }) => {
 
   return (
@@ -17,13 +18,7 @@ const Hero = ({ bgImage, heading, message, button, showButton, link }) => {
           </div>
         )}
         <p className='flex w-90 text-s mx-auto text-white py-5 text-center'>{message}</p>
-        <img 
-          src={bgImage}
-          srcSet={`${bgImage}?w=400 400w, ${bgImage}?w=800 800w, ${bgImage}?w=1200 1200w, ${bgImage}?w=1600 1600w`}
-          sizes='(max-width: 576px) 400px, (max-width: 768px) 800px, (max-width: 992px) 1200px, 1600px'
-          alt='Hero background'
-          className='hidden'
-        />
+        
       </div>
     </div>
   );
