@@ -7,19 +7,18 @@ import Hero from '../components/Hero'
 const Services = () => (
   <>
   <Hero 
-  bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/5.jpg" 
-  heading="SERVICES" 
-  message="">
-
+    backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/5.jpg" 
+    header="SERVICES" 
+    message="">
   </Hero>
 
-  <p className='flex justify-center text-lg font-light pb-10'>
+  <h2 className='text-2xl pb-10 pt-12 font-bold text-center'>WHAT WE OFFER</h2>
+  <p className='flex justify-center text-xl pb-10 pt-12 mx-auto  font-light text-center'>
             We provide comprehensive construction services including management, 
             architectural design, pre-construction planning, high-quality work,
             timely completion and excellent customer service, using a team of
               experts to tackle unique projects.
           </p>
-
   <div className="container mx-auto px-4 py-8">
     <div className="flex flex-wrap -mx-4 ">
       <Card

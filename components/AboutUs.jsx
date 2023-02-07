@@ -6,8 +6,8 @@ export default function AboutUs() {
   return (
     <div>
       <Hero 
-      bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/8.jpg" 
-      heading="ABOUT US" 
+      backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/8.jpg" 
+      header="ABOUT US" 
  
       >
       </Hero>

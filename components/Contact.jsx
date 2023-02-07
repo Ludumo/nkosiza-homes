@@ -5,11 +5,11 @@ const Contact = () => {
   return (
     <div className='max-w-[1240px] m-auto p-4 h-screen'>
       <Map />
-      <form className="flex w-full m-auto p-6 ">
-                <div className="w-full max-w-2xl px-5 py-10 m-auto mt-10  rounded-lg shadow:bg-gray-800">
-                    <div className="mb-6 text-3xl font-light text-center text-gray-800:text-white">
+                    {<div className="mt-8 text-2xl font-light text-center text-gray-800">
                         Leave us a message
-                    </div>
+                    </div>}
+      <form className="flex w-full m-auto p-0 ">
+                <div className="w-full max-w-2xl px-5 py-10 m-auto mt-10  rounded-lg shadow:bg-gray-800">
                     <div className="grid max-w-xl grid-cols-2 gap-4 m-auto">
                         <div className="col-span-2 lg:col-span-1">
                             <div className=" relative ">

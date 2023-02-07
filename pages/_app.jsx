@@ -1,5 +1,6 @@
 import { motion ,AnimatePresence } from 'framer-motion';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import '../styles/globals.css';
 import { useRouter } from 'next/router';
 
@@ -29,9 +30,9 @@ function MyApp({ Component, pageProps }) {
       }
     }}
     className="base-page-sizes">
-        
       <Navbar  />
       <Component  {...pageProps} />
+      <Footer />
     </motion.div>
   </AnimatePresence>
   );

@@ -7,10 +7,8 @@ const contact = () => {
   return (
     <div>
         <Hero  
-              heading='Contact' 
-              bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg" 
-             
-             
+              header='Contact' 
+              backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg"   
         />
         <Contact />
     </div>

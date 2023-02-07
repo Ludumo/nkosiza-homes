@@ -47,11 +47,11 @@ const Footer = () => {
                                 </li>
                                 <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
                                     <Link href="/services">
-                                    Serivces
+                                    Services
                                     </Link>
                                 </li>
                                 <li className="mb-4 transition-colors duration-200 hover:text-gray-800 dark:hover:text-white">
-                                    <Link href="/gallery">
+                                    <Link href="/#gallery">
                                     Gallery
                                     </Link>
                                 </li>

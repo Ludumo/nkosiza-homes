@@ -6,7 +6,6 @@ import { SliderData } from '../components/SliderData';
 import About from './about';
 import Services from './services';
 import Contact from '../components/Contact';
-import Footer from '../components/Footer';
 import HomeText from '../components/HomeText';
 
  const Home = () => {
@@ -18,15 +17,19 @@ import HomeText from '../components/HomeText';
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero 
-        bgImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
-        heading='NKOSIZA HOMES' 
+        backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
+        header='NKOSIZA HOMES' 
+        /* message={"Improving the quality of life for all residents throughthe joint creation of secure and environmentally friendly communities."}
+        buttonLink="/about"
+        buttonText={"Enter"}
+        showButton={true}
+        backgroundPosition='center' */
         />
       <HomeText />
       <About />
       <Services />
       <Slider slides={SliderData} />
       <Contact />
-      <Footer />
     </div>
   );
 }
