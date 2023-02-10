@@ -3,8 +3,9 @@ import Map from '../components/Map'
 
 const Contact = () => {
   return (
-    <div className='max-w-[1240px] m-auto p-4 h-screen'>
-      <Map />
+      <div className='max-w-[1240px] m-auto p-4 h-screen'>
+        <Map />
+        <br />
                     {<div className="mt-8 text-2xl font-light text-center text-gray-800">
                         Leave us a message
                     </div>}

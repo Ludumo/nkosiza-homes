@@ -1,16 +1,25 @@
 import React from 'react'
 import Card from '../components/Card'
 import Hero from '../components/Hero'
+import Image from 'next/image';
 
 
 
 const Services = () => (
   <>
-  <Hero 
-    backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/5.jpg" 
+<div className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover '>
+      <Image
+        src="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/5.jpg"
+        height={1080}
+        width={1920}  
+        alt="Inside House"
+        />
+      </div>
+  {/* <Hero 
+    backgroundImage= 
     header="SERVICES" 
     message="">
-  </Hero>
+  </Hero> */}
 
   <h2 className='text-2xl pb-10 pt-12 font-bold text-center'>WHAT WE OFFER</h2>
   <p className='flex justify-center text-xl pb-10 pt-12 mx-auto  font-light text-center'>
