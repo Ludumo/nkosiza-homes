@@ -1,7 +1,33 @@
-import React from 'react'
-import Map from '../components/Map'
+import React, { useState } from 'react'
+/* import connectToDatabase from '../utils/connectToDatabase'
+ */import Map from '../components/Map'
+
 
 const Contact = () => {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [comment, setComment] = useState('');
+
+    const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // Send POST request to API route
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, comment }),
+    });
+
+    // Clear form inputs
+    setName('');
+    setEmail('');
+    setComment('');
+  };
+
+
+
   return (
     <div className='max-w-[1240px] m-auto p-4 h-screen'>
       <Map />

@@ -1,5 +1,3 @@
-import dotenv from 'dotenv'
-import aws from 'aws-sdk'
 
 const AWS = require('aws-sdk');
 
