@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 /* import connectToDatabase from '../utils/connectToDatabase'
- */import Map from '../components/Map'
+ */import Map from './Map'
 
 
 const Contact = () => {

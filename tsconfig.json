@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.jsx", "pages/_app.jsx", "pages/about.jsx", "components/Slider.jsx", "components/Hero.jsx", "components/Contact.jsx", "components/About.jsx", "components/Card.jsx", "pages/index.jsx", "pages/contact.jsx", "components/SliderData.jsx", "components/Navbar.jsx", "pages/services.jsx", "s3.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.tsx", "pages/_app.tsx", "pages/about.tsx", "components/Slider.tsx", "components/Hero.tsx", "components/Contact.tsx", "components/About.jsx", "components/Card.tsx", "pages/index.tsx", "pages/contact.tsx", "components/SliderData.tsx", "components/Navbar.tsx", "pages/services.tsx", "s3.jsx"],
   "exclude": ["node_modules"]
 }
