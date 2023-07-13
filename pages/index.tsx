@@ -17,9 +17,8 @@ import HomeText from '../components/HomeText';
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Hero 
-        backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg" 
-        header='NKOSIZA HOMES' 
-        /* message={"Improving the quality of life for all residents throughthe joint creation of secure and environmentally friendly communities."}
+        backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/6.jpg"
+        header='NKOSIZA HOMES' message={''} showButton={false} buttonText={''}        /* message={"Improving the quality of life for all residents throughthe joint creation of secure and environmentally friendly communities."}
         buttonLink="/about"
         buttonText={"Enter"}
         showButton={true}

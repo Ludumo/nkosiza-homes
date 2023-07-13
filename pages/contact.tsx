@@ -6,9 +6,8 @@ const contact = () => {
   return (
     <div>
         <Hero  
-              header='Contact' 
-              backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg"   
-        />
+        header='Contact'
+        backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/h.jpg" message={''} showButton={false} buttonText={''}        />
         <Contact />
     </div>
   )
