@@ -1,16 +1,16 @@
 import React from 'react'
 import Card from '../components/Card'
-import Hero from '../components/Hero'
-
+/* import Hero from '../components/Hero'
+ */
 
 
 const Services = () => (
   <>
-  <Hero 
+ {/*  <Hero 
     backgroundImage="https://ludumobucket.s3.eu-central-1.amazonaws.com/Trail+Huts/5.jpg" 
     header="SERVICES" 
     message="">
-  </Hero>
+  </Hero> */}
 
   <h2 className='text-2xl pb-10 pt-12 font-bold text-center'>WHAT WE OFFER</h2>
   <p className='flex justify-center text-xl pb-10 pt-12 mx-auto  font-light text-center'>
