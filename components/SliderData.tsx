@@ -3,6 +3,7 @@ interface Slide {
 }
 
 export const SliderData: Slide[] = [
+  { image: 'https://ludumobucket.s3.eu-central-1.amazonaws.com/IMG-7024.jpg' },
   { image: 'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/Knysna1.jpg' },
   { image: 'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/a.jpg' },
   { image: 'https://ludumobucket.s3.eu-central-1.amazonaws.com/Sundry+pics/b.jpg' },
